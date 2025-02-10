@@ -4,7 +4,7 @@ import folium
 from streamlit_folium import folium_static
 
 # Load the CSV file
-csv_file = "ForDigitalOcean/addresses.csv"  # Ensure your file is in the same directory
+csv_file = "addresses.csv"  # Ensure your file is in the same directory
 df = pd.read_csv(csv_file)
 
 # Create a base map centered around the average coordinates
